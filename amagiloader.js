@@ -4,11 +4,11 @@ const AmagiLoader = {
 
         if (this.__loader == null) {
             var divContainer = document.createElement('div');
-            divContainer.style.position = 'absolute';
+            divContainer.style.position = 'fixed';
             divContainer.style.left = '0';
             divContainer.style.top = '0';
-            divContainer.style.width = '100vw';
-            divContainer.style.height = '100vh';
+            divContainer.style.width = '100%';
+            divContainer.style.height = '100%';
             divContainer.style.backgroundColor = 'rgba(250, 250, 250, 0.80)';
 
             var div = document.createElement('div');
